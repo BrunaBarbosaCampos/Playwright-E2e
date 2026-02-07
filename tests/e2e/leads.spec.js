@@ -1,6 +1,6 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
-import { LandingPage } from "../pages/LandiPage/LandingPage";
+import { LandingPage } from "../actions/LandiPage/LandingPage";
 import { faker } from "@faker-js/faker";
 
 let landingPage;

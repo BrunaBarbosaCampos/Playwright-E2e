@@ -1,6 +1,6 @@
 // @ts-check
 import { test } from "@playwright/test";
-import { LoginPage } from "../pages/LoginPage/LoginPage";
+import { LoginPage } from "../actions/LoginPage/LoginPage";
 
 let loginPage;
 

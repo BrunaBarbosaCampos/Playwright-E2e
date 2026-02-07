@@ -13,7 +13,7 @@ export class MoviesPage {
       .locator("#select_company_id .react-select__indicators")
       .click();
     await this.page
-      .locator(".react-select__option", { hasText: company })
+      .locator(".react-select__menu", { hasText: company })
       .click();
     await this.page.locator("#select_year").click();
     await this.page.getByText(release_year).click();
